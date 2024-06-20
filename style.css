@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #7e71e7;
+    
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+   
+}
+.portfolio-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+.navlist{
+    display: flex;
+    gap: 15px;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color:white;
+    
+}
+.left-container,.right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left-container{
+background: #7e71e7;
+width:70%;
+padding-left: 3rem;
+
+
+}
+.right-container{
+    background: linear-gradient(#7e71e7,grey);
+    width: 30%;
+
+}
+.icons .fa-brands{
+    color: white;
+    font-size: 1.7rem;
+   
+}
+.icons{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.3rem;
+}
+.content{
+    color:rgb(245, 234, 220);
+    margin-left: 4rem;
+    font-size: 0.9rem;
+    margin-right: 4rem;
+}
+.content h1{
+    color:yellow;
+    font-size: 3rem;
+}
+.content .detail{
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.3rem;
+    max-width: 29rem;
+}
+.btn-container button{
+    border: 0.1rem solid #fff;
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+   
+
+}
+button:nth-child(1):hover{
+    background: transparent;
+    border: 0.2rem solid yellow;
+    color: white;    
+       
+}
+button:nth-child(2):hover{
+    background: transparent;
+    border: 0.2rem solid yellow;
+    color: white;    
+}
+.btn-container{
+    display: flex;
+    gap: 1.7rem;
+}
+.icons .fa-brands:hover{
+    cursor: pointer;
+    background:yellow;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.navlist li a:hover{
+    cursor: pointer;
+    color:yellow;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position:absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+    background: #7e71e7;
+    width: 28rem;
+}
+.circle:nth-child(2){
+    background-image: url("pics/pragnya_05.jpg");
+    width: 20rem;
+    background-size: 100%;
+}
+.container-fluid{
+    background-color: #7e71e7;
+}
+
